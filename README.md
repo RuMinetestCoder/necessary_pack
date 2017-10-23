@@ -1,4 +1,3 @@
-{::nomarkdown}
 <h1>Necessary Mod Pack</h1>
 
 The most necessary mods. List:
@@ -25,4 +24,3 @@ The most necessary mods. List:
 <img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">
 </form>
 </center>
-{:/}
