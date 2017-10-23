@@ -1,0 +1,9 @@
+# init.lua
+'======= STATISTIC =======' = '======= СТАТИСТИКА ======='
+PER LAST 24 HOURS = ЗА ПОСЛЕДНИЕ 24 ЧАСА
+Total nicks -> %d = Всего ников -> %d
+Total IPs -> %d = Всего IP адресов -> %d
+Newbies -> %d = Новичков -> %d
+Average online seconds -> %d = Средний онлайн в секундах -> %d
+show statistic = показать статистику
+'======= /STATISTIC =======' = '======= /СТАТИСТИКА ======='

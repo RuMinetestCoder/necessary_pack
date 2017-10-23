@@ -1,0 +1,26 @@
+# init.lua
+For no wait to exit =
+Can use /pvp =
+Can use /opvp =
+Can use /pvpon =
+Can use /opvpon =
+Can use /pvpi =
+O NO, LEVE IN PVP! YOU DEATH! =
+%s leave in pvp, die =
+%s pvp is off =
+%s is newbie, pvp delay =
+pvp not allowed in this cuboid =
+pvp not allowed in area =
+toggle pvp mode =
+pvp on =
+pvp off =
+toggle player pvp mode =
+invalid command, not player name =
+%s not exists =
+%s not online =
+%s pvp on =
+%s pvp off =
+on pvp, off newbie protection =
+on pvp player, off newbie protection =
+show pvp info =
+{%s} pvp mode %s, %s wait, %s newbie protect =

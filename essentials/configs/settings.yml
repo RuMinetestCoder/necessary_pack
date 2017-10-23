@@ -1,0 +1,41 @@
+respawn: false
+nspawn: true
+mintop: 100
+maxtop: 10000
+mindown: 100
+maxdown: 10000
+minspeed: 1
+maxspeed: 3
+minjump: 1
+maxjump: 3
+mingravity: 1
+maxgravity: 10
+posnear: 10
+callover: 60
+broadcast: '[BROADCAST] %s'
+say: '[SERVER] %s'
+hideej: false
+rulesshow: true
+rulespause: 10
+exit: '*** %s has leave the game'
+join: '*** %s has joined the game'
+nickfilter: false
+tps: 30
+hello: true
+hellomess: Welcome %s, good luck on the server!
+afk: 10
+afkkeephp: true
+afkback: true
+denynicks:
+- admin
+- administrator
+- moder
+- moderator
+- owner
+- server
+warplimit: 5
+warplimits:
+- default=5
+home: 5
+homes:
+- default=5

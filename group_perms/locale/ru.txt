@@ -1,0 +1,21 @@
+# init.lua
+Can use /perms = Для использования /perms
+
+# commands.lua
+not arguments = нет аргументов
+not nick = нет ника
+not group = нет группы
+player not found = игрок не найден
+group not found = группа не найдена
+error = ошибка
+%s success added to %s = %s успешно добавлен(а) в %s
+%s success set group %s = %s установлена группа %s
+%s success removed from group %s = %s удален(а) из %s
+broken command = неправильная команда
+player has no groups = игрок не состоит в группах
+Groups = Группы
+base command for manage privs = команда для управления игроками
+show player groups = показывает группы игрока
+reload configs = перезагрузка конфигов
+configs reloaded = конфиги перезагружены
+no groups = нет групп

@@ -1,0 +1,9 @@
+# init.lua
+'======= STATISTIC =======' =
+PER LAST 24 HOURS =
+Total nicks -> %d =
+Total IPs -> %d =
+Newbies -> %d =
+Average online seconds -> %d =
+show statistic =
+'======= /STATISTIC =======' =

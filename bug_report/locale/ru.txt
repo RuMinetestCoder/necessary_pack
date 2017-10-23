@@ -1,0 +1,8 @@
+# init.lua
+No theme = Нет темы
+Send = Отправить
+Bug report sent = Сообщение об ошибке отправлено
+Canceling sending = Отмена сообщения...
+Bug report = С. об ошибке
+Bug report GUI is open = Форма написания открыта
+Can use /bug = Для использования /bug

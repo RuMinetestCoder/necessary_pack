@@ -1,0 +1,21 @@
+# init.lua
+Can use /perms =
+
+# commands.lua
+not arguments =
+not nick =
+not group =
+player not found =
+group not found =
+error =
+%s success added to %s =
+%s success set group %s =
+%s success removed from group %s =
+broken command =
+player has no groups =
+Groups: =
+base command for manage privs =
+show player groups =
+reload configs =
+configs reloaded =
+no groups =

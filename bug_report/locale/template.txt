@@ -1,0 +1,8 @@
+# init.lua
+No theme =
+Send =
+Bug report sent =
+Canceling sending =
+Bug report =
+Bug report GUI is open =
+Can use /bug =

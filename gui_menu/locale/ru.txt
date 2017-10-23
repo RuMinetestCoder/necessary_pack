@@ -1,0 +1,4 @@
+# init.lua
+Can use /menu = Для доступа к /menu
+Server GUI menu is open = Меню открыто
+open GUI menu = открыть меню

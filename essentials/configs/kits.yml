@@ -1,0 +1,11 @@
+defaultkit:
+- 'default:dirt 5'
+- 'default:pick_wood 21323'
+stuffkit:
+- 'default:apple'
+kits:
+- 'defaultkit=default,stuff'
+- 'stuffkit=stuff'
+pause:
+- defaultkit=3600
+- stuffkit=86400

@@ -1,0 +1,10 @@
+# init.lua
+For access to admin commands query =
+start query =
+query already started =
+query started =
+stop query =
+query already stopped =
+query stopped =
+reload settings from config file =
+settings reloaded =

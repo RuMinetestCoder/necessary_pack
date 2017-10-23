@@ -1,0 +1,10 @@
+# init.lua
+For access to admin commands query = для доступа к командам админа query
+start query = запуск query
+query already started = query уже запущен
+query started = query запущен
+stop query = остановка query
+query already stopped = query не запущен
+query stopped = query остановлен
+reload settings from config file = перезагрузка конфига
+settings reloaded = конфиг перезагружен
