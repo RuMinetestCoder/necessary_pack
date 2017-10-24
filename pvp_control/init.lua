@@ -110,7 +110,7 @@ minetest.register_on_leaveplayer(function(player)
 end)
 
 minetest.register_on_punchplayer(function(player, hitter, time_from_last_punch, tool_capabilities, pos, damage)
-    if not player:is_player() then return end
+    if not player:is_player() or not hitter:is_player() then return end
     local pname = player:get_player_name()
     local hname = player:get_player_name()
     if nopvp[pname] then
