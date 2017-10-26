@@ -211,6 +211,7 @@ end
 
 -- EVENTS
 minetest.register_on_chat_message(function(name, message)
+    if not minetest.player_exists(name) or not minetest.get_player_by_name(name) then return end
     if not minetest.check_player_privs(name, {scnofilter=true}) then
         message = filter(message)
     end

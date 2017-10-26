@@ -30,6 +30,7 @@ end
 
 function essentials.is_muted(player_name)
     local info = essentials.get_mute_info(player_name)
+    if not info then return false end
     if tonumber(info.time) > os.time() then return true end
     return false
 end

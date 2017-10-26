@@ -50,7 +50,7 @@ local function tick(bpos)
     if bpos then pos = bpos end
     for name, time in pairs(players) do
         local player = minetest.get_player_by_name(name)
-        if player:is_player_connected() then
+        if player and player:is_player_connected() then
             if pos[name] and not essentials.table_equals(pos[name], player:getpos()) and afk[name] then
                 essentials.toggle_afk(name)
                 time = t
@@ -64,6 +64,8 @@ local function tick(bpos)
             end
         else
             pos[name] = nil
+            afk[name] = nil
+            players[name] = nil
         end
     end
     minetest.after(1, tick, pos)
@@ -81,6 +83,7 @@ minetest.register_on_player_hpchange(function(player, hp_change)
 end, nil)
 
 minetest.register_on_chat_message(function(name, message)
+    if not minetest.player_exists(name) or not minetest.get_player_by_name(name) then return end
     check(name)
 end)
 

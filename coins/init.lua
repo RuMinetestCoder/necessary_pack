@@ -25,6 +25,7 @@ end
 function coins.get_coins(player_name)
     if not minetest.player_exists(player_name) then return nil end
     local player = minetest.get_player_by_name(player_name)
+    if not player then return nil end
     local result = player:get_attribute('coins')
     if result then return tonumber(result) end
     return 0
@@ -33,6 +34,7 @@ end
 function coins.set_coins(player_name, num)
     if not minetest.player_exists(player_name) then return false end
     local player = minetest.get_player_by_name(player_name)
+    if not player then return false end
     player:set_attribute('coins', tostring(num))
     log(S('set balance %s on %d'):format(player_name, num))
     return true
@@ -41,6 +43,7 @@ end
 function coins.add_coins(player_name, num)
     if not minetest.player_exists(player_name) then return nil end
     local player = minetest.get_player_by_name(player_name)
+    if not player then return nil end
     local result = player:get_attribute('coins')
     if result then result = tonumber(result) else result = 0 end
     local sum = result + num
@@ -52,6 +55,7 @@ end
 function coins.take_coins(player_name, num)
     if not minetest.player_exists(player_name) then return nil end
     local player = minetest.get_player_by_name(player_name)
+    if not player then return nil end
     local result = player:get_attribute('coins')
     if result then result = tonumber(result) else result = 0 end
     local dif = result - num
