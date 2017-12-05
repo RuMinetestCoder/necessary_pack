@@ -15,3 +15,21 @@ The most necessary mods. List:
 * **Gui Menu** - convenient control buttons
 * **Mod Configs** - libray for easy manage config files
 * **Cuboids Lib** - libray for coordinate operitions
+
+This modpack require librays from [luarocks](https://luarocks.org/). For using **mod_configs** and **query** need disable mod security.
+
+```
+#!shell
+
+# for mod_configs
+luarocks-5.1 install minifs
+luarocks-5.1 install inifile
+luarocks-5.1 install lyaml
+luarocks-5.1 install rapidjson
+
+# for query
+luarocks-5.1 install effil
+pacman -S lua51-socket
+```
+
+Read all readme's in mod folders for more information.
