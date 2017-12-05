@@ -5,11 +5,11 @@ Easy coins (game money) system. Log path: %worldpath%/coins.log
 ## Commands and privs
 
 * **/bal** - show you balance (*coinsbal* priv)
-* **/pay <player> <number>** - pay coins to player (*coinspay* priv)
-* **/obal <player>** - show player balance (*coinsobal* priv)
-* **/bset <player> <number>** - set player balance (*coinsbset* priv)
-* **/btake <player> <number>** - take coins from player (*coinsbtake* priv)
-* **/bgive <player> <number>** - give coins to player (*coinsbgive* priv)
+* **/pay [player] [number]** - pay coins to player (*coinspay* priv)
+* **/obal [player]** - show player balance (*coinsobal* priv)
+* **/bset [player] [number]** - set player balance (*coinsbset* priv)
+* **/btake [player] [number]** - take coins from player (*coinsbtake* priv)
+* **/bgive [player] [number]** - give coins to player (*coinsbgive* priv)
 
 ## Depends
 

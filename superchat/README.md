@@ -6,11 +6,11 @@ Chat channels system, for the convenience of the players. Support filter url's, 
 
 * **/chlist** - show channels list
 * **/mch** - show you current channel
-* **/omch <player>** - show player current channel (*scomch* priv)
-* **/ch <channel>** - change you channel
-* **/och <player> <channel>** - change player channel (*scoch* priv)
-* **/chpref <prefix?>** - change or prefix (*scpref* priv)
-* **/chopref <player> <prefix?>** - change or player prefix (*scopref* priv)
+* **/omch [player]** - show player current channel (*scomch* priv)
+* **/ch [channel]** - change you channel
+* **/och [player] [channel]** - change player channel (*scoch* priv)
+* **/chpref [prefix?]** - change or prefix (*scpref* priv)
+* **/chopref [player] [prefix?]** - change or player prefix (*scopref* priv)
 * **/chreload** - reload config (*screload* priv)
 
 *scnofilter* - for not filtering messages

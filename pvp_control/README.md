@@ -5,10 +5,10 @@ Control pvp in server. On or off, death if exit in pvp, pvp toggle, newbies prot
 ## Commands and privs
 
 * **/pvp** - toggle pvp mode (*pvptoggle* priv)
-* **/opvp <player>** - toggle player pvp mode (*opvptoggle* priv)
+* **/opvp [player]** - toggle player pvp mode (*opvptoggle* priv)
 * **/pvpon** - on pvp, off newbie protection (*pvpon* priv)
-* **/opvpon <player>** - on pvp for player, off newbie protection (*opvpon* priv)
-* **/pvpi <player>** - show pvp info (*pvpi* priv)
+* **/opvpon [player]** - on pvp for player, off newbie protection (*opvpon* priv)
+* **/pvpi [player]** - show pvp info (*pvpi* priv)
 
 ## API
 
